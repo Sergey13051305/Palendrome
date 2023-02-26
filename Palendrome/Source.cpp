@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 //#define task_1
 //#define task_2
@@ -9,15 +9,15 @@ void main()
 #if defined task_1
 #define CONST_1 1
 	do {
-		std::cout << "Ââåäèòå 6 ÷èñåë äëÿ ïðîâåðêè áèëåòà: ";
+		std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 6 Ñ‡Ð¸ÑÐµÐ» Ð´Ð»Ñ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ¸ Ð±Ð¸Ð»ÐµÑ‚Ð°: ";
 		char one, two, three, four, five, six, summ_1, summ_2;
 		std::cin >> one >> two >> three >> four >> five >> six;
 		summ_1 = one + two + three;
 		summ_2 = four + five + six;
 		switch (summ_1 == summ_2)
 		{
-		case CONST_1: std::cout << "Áèëåò ñ÷àñòëèâûé \n\n"; break;
-		default: std::cout << "Áèëåò íå ñ÷àñòëèâûé\n\n"; break;
+		case CONST_1: std::cout << "Ð‘Ð¸Ð»ÐµÑ‚ ÑÑ‡Ð°ÑÑ‚Ð»Ð¸Ð²Ñ‹Ð¹ \n\n"; break;
+		default: std::cout << "Ð‘Ð¸Ð»ÐµÑ‚ Ð½Ðµ ÑÑ‡Ð°ÑÑ‚Ð»Ð¸Ð²Ñ‹Ð¹\n\n"; break;
 		}
 	} while (1);
 #endif //task_1
@@ -27,13 +27,13 @@ void main()
 #define W 1
 	do
 	{
-		std::cout << "Ââåäèòå 5 çíà÷íîå ÷èñëî äëÿ ïðîâåðêè: ";
+		std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 5 Ð·Ð½Ð°Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð´Ð»Ñ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ¸: ";
 		char one, two, three, four, five;
 		std::cin >> one >> two >> three >> four >> five;
 		switch (one == five && two == four)
 		{
-		case W:std::cout << "Ïàëèíäðîì\n\n"; break;
-		default:std::cout << " ÍÅ Ïàëèíäðîì\n\n"; break;
+		case W:std::cout << "ÐŸÐ°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼\n\n"; break;
+		default:std::cout << " ÐÐ• ÐŸÐ°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼\n\n"; break;
 		}
 	} while (1);
 #endif //task_2
